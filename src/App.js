@@ -1,13 +1,14 @@
 import "./App.css";
-import JsxSyntax from "./jsx문법";
-import GreetingComponent from "./GreetingComponent";
+import Articles from "./Articles";
+import MyComponent from "./MyComponent";
+import BoxComponent from "./BoxComponent";
 
 function App() {
   return (
     <>
-      <h1>여기는 App.js입니다.</h1>
-      <JsxSyntax />
-      <GreetingComponent />
+      <MyComponent name="안유진" age={21} />
+      <BoxComponent>첫 번째 박스 입니다.</BoxComponent>
+      <BoxComponent>두 번째 박스 입니다.</BoxComponent>
     </>
   );
 }
