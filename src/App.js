@@ -1,12 +1,12 @@
 import "./App.css";
-import DropDownComponent from "./DropDownComponent";
-import RadioButton from "./RadioButton";
-import TableMap from "./TableMap";
+import TodoList from "./TodoList";
+import NameCard from "./NameCard";
+import InfoEffect from "./InfoEffect";
 
 function App() {
   return (
     <>
-      <TableMap />
+      <InfoEffect />
     </>
   );
 }
