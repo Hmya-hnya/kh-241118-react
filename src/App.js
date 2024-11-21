@@ -1,12 +1,10 @@
 import "./App.css";
-import TodoList from "./TodoList";
-import NameCard from "./NameCard";
-import InfoEffect from "./InfoEffect";
+import InnerValueKeep from "./RefEx2";
 
 function App() {
   return (
     <>
-      <InfoEffect />
+      <InnerValueKeep />
     </>
   );
 }
